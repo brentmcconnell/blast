@@ -6,7 +6,7 @@ pool:
 
 variables:
   imageName: 'emcconne/blast'
-  containerRegistry: 'blastregistry.azurecr.io'
+  containerRegistry: 'BLASTREGISTRY' #Setup a new container connection in ADO with this name
   tag: '$(Build.BuildId)'
 
 steps:
