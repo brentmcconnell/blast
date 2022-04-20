@@ -6,7 +6,7 @@ pool:
 
 variables:
   imageName: 'emcconne/blast'
-  containerRegistry: 'acrdevops.azurecr.io'
+  containerRegistry: 'blastregistry.azurecr.io'
   tag: '$(Build.BuildId)'
 
 steps:
