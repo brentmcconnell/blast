@@ -69,10 +69,6 @@ a:hover {
   font-weight: bold;
 }
 
-#content {
-
-}
-
 a:hover#logo {
   color: #ececec !important;
 }
@@ -117,3 +113,11 @@ a#logo {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
+/* Added styles */
+.extra_sites a {
+    font-size: 1.25em !important;
+}
+
+.extra_sites {
+    padding-bottom:2em;
+}
