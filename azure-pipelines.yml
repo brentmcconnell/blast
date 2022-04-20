@@ -59,4 +59,6 @@ steps:
     repository: $(imageName)
     dockerfile: '**/Dockerfile' 
     containerRegistry: $(containerRegistry)
-    tags: $(tag)
+    tags: |
+      $(tag)
+      latest
