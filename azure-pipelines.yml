@@ -14,7 +14,7 @@ steps:
   displayName: 'runtime_vars'
   name: runtime_vars
   inputs:
-    azureSubscription: 'BLAST'
+    azureSubscription: 'FMCBLAST'
     scriptType: bash
     scriptLocation: inlineScript
     inlineScript: |
